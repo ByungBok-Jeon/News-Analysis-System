@@ -1,0 +1,58 @@
+python3.7
+pycharm2020.1.2 x64
+bootstrap4.5.0
+
+Library{
+django_3.0.6
+jinja2_2.11.2
+keras_2.3.1
+jpype1_0.7.4
+beautifulsoup4_4.6.0
+gensim_3.8.3
+konlpy_0.5.2
+nltk_3.5
+pandas_1.0.3
+pychart.js_0.3.0
+tensorflow_2.0.0
+numpy_1.18.4
+}
+
+python file{
+view.py	//html 호출 구동
+urls.py	//view 호출 구동
+settings.py	//외부 프로그램 설정
+apps.py	//프로젝트 앱 설정
+crawling.py	//크롤링 구동
+lda.py	//lda 모듈
+lda_act.py	//lda모듈 구동
+main.py	//메인(감성분석 모듈 구동)
+sent_train.py	//감성분석 학습
+sent_act.py	//감성분석 모듈
+summarize.py	//요약
+}
+
+html file{
+it과학.html	//해당 파트 html 구성
+경제.html		//해당 파트 html 구성
+사회.html		//해당 파트 html 구성
+생활문화.html	//해당 파트 html 구성
+세계.html		//해당 파트 html 구성
+전체.html		//해당 파트 html 구성
+정치.html		//해당 파트 html 구성
+}
+
+text file{
+TextFile내 모든 파일
+}
+
+json file{
+model.json	//학습 모델 json형식 저장
+selected_words.json	//selected_word(자주쓰는 단어) json 형식 저장
+test_docs.json	//학습 후 테스팅 데이터 json형식 저장
+train_docs.json	//학습 데이터 json형식 저장
+}
+
+h5 file{
+model.h5		//학습 모델 h5형식 저장
+}
+
